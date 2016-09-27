@@ -1,4 +1,4 @@
-42 Homebrew Fix
+WTC Homebrew Fix
 ===============
 
 This script installs Homebrew properly in your home on your 42 session.
