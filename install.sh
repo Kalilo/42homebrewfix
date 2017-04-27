@@ -54,6 +54,7 @@ EOL
 fi
 
 source $HOME/.brew_fix.zsh
+echo "brew update might take some time, please be patient"
 brew update
 
 echo "Please open a new terminal to apply modifications"
