@@ -20,13 +20,13 @@ cat > $HOME/.brew_fix.zsh <<EOL
 export PATH=\$HOME/.brew/bin:\$PATH
 
 # Set Homebrew temporary folders
-export HOMEBREW_CACHE=/tmp/\$USER/Homebrew/Caches
-export HOMEBREW_TEMP=/tmp/\$USER/Homebrew/Temp
+export HOMEBREW_CACHE=\$HOME/tmp/\$USER/Homebrew/Caches
+export HOMEBREW_TEMP=\$HOME/tmp/\$USER/Homebrew/Temp
 
 mkdir -p \$HOMEBREW_CACHE
 mkdir -p \$HOMEBREW_TEMP
 
-HOMEBREW_LOCKS_TARGET=/tmp/\$USER/Homebrew/Locks
+HOMEBREW_LOCKS_TARGET=\$HOME/tmp/\$USER/Homebrew/Locks
 HOMEBREW_LOCKS_FOLDER=\$HOME/.brew/var/homebrew
 
 mkdir -p \$HOMEBREW_LOCKS_TARGET
