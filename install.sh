@@ -22,6 +22,7 @@ export PATH=\$HOME/.brew/bin:\$PATH
 # Set Homebrew temporary folders
 export HOMEBREW_CACHE=\$HOME/Library/Caches
 export HOMEBREW_TEMP=\$HOME/Library/Temp
+export HOMEBREW_PREFIX=\$HOME/.brew
 
 mkdir -p \$HOMEBREW_CACHE
 mkdir -p \$HOMEBREW_TEMP
