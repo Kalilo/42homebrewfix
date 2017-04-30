@@ -23,9 +23,6 @@ export PATH=\$HOME/.brew/bin:\$PATH
 export HOMEBREW_CACHE=\$HOME/Library/Caches
 export HOMEBREW_TEMP=\$HOME/Library/Temp
 
-# Set Homebrew prefix to override /usr/local
-export DEFAULT_HOMEBREW_PREFIX=\$HOME/.brew
-
 # Turn off brew analytics
 export HOMEBREW_NO_ANALYTICS=1
 
