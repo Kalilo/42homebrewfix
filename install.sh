@@ -22,7 +22,12 @@ export PATH=\$HOME/.brew/bin:\$PATH
 # Set Homebrew temporary folders
 export HOMEBREW_CACHE=\$HOME/Library/Caches
 export HOMEBREW_TEMP=\$HOME/Library/Temp
+
+# Set Homebrew prefix to override /usr/local
 export HOMEBREW_PREFIX=\$HOME/.brew
+
+# Turn off brew analytics
+export HOMEBREW_NO_ANALYTICS=1
 
 mkdir -p \$HOMEBREW_CACHE
 mkdir -p \$HOMEBREW_TEMP
